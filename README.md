@@ -14,7 +14,7 @@ Example (Transmit data):
     }
 
 
-   uint16_t spidmaCh = ke_spi_s_enable_txdmamode(txMsg, sizeof(txMsg));   //Set array txMsg as transmit buffer
+    uint16_t spidmaCh = ke_spi_s_enable_txdmamode(txMsg, sizeof(txMsg));   //Set array txMsg as transmit buffer
  
 
 
